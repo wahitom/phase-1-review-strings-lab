@@ -2,5 +2,5 @@
 const currentUser = "Miriam Maina";
 const  welcomeMessage = "Welcome to Flatbook, " + currentUser + "!";
 const excitedWelcomeMessage = welcomeMessage.toUpperCase() ;
-const   shortGreeting = "Welcome, " + currentUser[0] + "!";
-console.log(excitedWelcomeMessage);
+const   shortGreeting = `Welcome, ${currentUser.slice(0, 1)}!`
+console.log(shortGreeting);
